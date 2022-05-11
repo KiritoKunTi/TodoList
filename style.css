@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Ubuntu';
+}
+input, button {
+    border: none;
+    outline: none;
+}
+.place-center {
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: #181820;
+}
+.wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.title {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+
+    margin-bottom: 12px;
+}
+.header {
+    margin-bottom: 35px;
+}
+.add-task-input {
+    width: 90%;
+    height: 40px;
+    padding: 13px;
+    border-radius: 6px;
+    border: 3px solid #1d1d26;
+    background-color: #181820;
+    color: white;
+    font-size: 15px;
+    transition: border .2s linear;
+}
+.add-task-input:hover {
+    border: 3px solid #393947;
+}
+.add-task-input:focus {
+    border: 3px solid #393947;
+}
+.add-task-btn {
+    font-size: 17px;
+    padding: 3px 10px 5px;
+    border-radius: 6px;
+    margin-left: -40px;
+    background-color: #fc76a1;
+    color: #191921;
+    transition: all .2s linear;
+}
+.add-task-btn:hover {
+    transform: scale(.95);
+    background-color: #181820;
+    border: 1px solid #fc76a1;
+    color: white;
+}
+.wrap-tasks {
+}
+.tasks-title {
+    font-weight: 500;
+    font-size: 15px;
+    color: white;    
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    margin-bottom: 12px;
+}
+.tasks {
+    margin-top: 12px;
+}
+.box-task {
+    display: flex;
+    margin-bottom: 10px;
+}
+.task {
+    width: 80%;
+    height: 40px;
+    background-color: #21212b;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+.delete-btn {
+    margin-left: 5px;
+    padding: 12px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fc76a1;
+    color: white;
+    transition: transform .3s linear;
+}
+.delete-btn:hover {
+    transform: scale(1.05);
+    background-color: #181820;
+    border: 1px solid #fc76a1;
+}
