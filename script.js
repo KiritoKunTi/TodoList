@@ -31,6 +31,11 @@ window.addEventListener('load', () => {
         nodeTasks.appendChild(task_el);
 
         inputNode.value = '';
+
+        deleteBtn.addEventListener('click', () => {
+            nodeTasks.removeChild(task_el);
+        });
+
     });
 
 });
